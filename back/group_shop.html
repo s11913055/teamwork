@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>後台_團購_顯示頁</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container mt-2">
+    <div class="row">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          確認
+        </button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          刪除
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="container mt-2 ">
+    <div class="row">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">進行中</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">審核中</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">歷史紀錄</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">團購編號</th>
+            <th scope="col">客製編號</th>
+            <th scope="col">團購發起日期</th>
+            <th scope="col">截止條件</th>
+            <th scope="col">截止日期</th>
+            <th scope="col">滿額人數</th>
+            <th scope="col">團購金額</th>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+            <th scope="col">狀態</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td colspan="1">aaa</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <!-- <td colspan="1">5000</td> -->
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td colspan="1">bbb</td>
+            <td colspan="1">2019-02-01</td>
+            <td colspan="1">人數</td>
+            <td colspan="1">2019-02-15</td>
+            <td colspan="1">45</td>
+            <td colspan="1">4500</td>
+            <!-- <td colspan="1">5000</td> -->
+            <td>
+              <a href="#" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">未出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">未出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="1">ccc</td>
+            <td colspan="1">2019-01-01</td>
+            <td colspan="1">時間</td>
+            <td colspan="1">2019-01-15</td>
+            <td colspan="1">30</td>
+            <td colspan="1">3000</td>
+            <td>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">已出貨</a>
+            </td>
+          </tr>
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td colspan="2">精美選項配件狀態</td>
+            <td>
+              <button type="button" class="btn btn-lg btn-dark" disabled>
+                停用中
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">精美選項配件狀態</td>
+            <td>
+              <button type="button" class="btn btn-lg btn-dark" disabled>
+                停用中
+              </button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
